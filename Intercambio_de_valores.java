@@ -12,13 +12,13 @@ public class Intercambio_de_valores {
     }
 
     public static void intercambiar(int a, int b) {
-        int a2 = a;
+        int c = a;
         a = b;
-        b = a2;
+        b = c;
        
         System.out.println("numero a: " + a + " numero b: " + b );
-
-    }
+        
+    } 
 
     
 }
