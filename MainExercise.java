@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Main
-{
+public class MainExercise {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         System.out.print("Ingrese dos numero: ");
@@ -22,5 +21,7 @@ public class Main
         
         float module = number1 & number2;
         System.out.println("El resultado del module es: " + module);
+
+    reader.close();
     }
 }
