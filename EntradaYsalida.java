@@ -13,5 +13,7 @@ public class EntradaYsalida {
         double size = sc.nextInt();
 
         System.out.print("Tu nombre es: " + name + " tienes: " + age + " años y mides: " + size + "centimetros");
+
+    sc.close();
     }
 }

@@ -17,6 +17,6 @@ public class Arrays
 
         System.out.println("El promedio es: " + promedio);
         
-       
+    sc.close();
     }   
 }
